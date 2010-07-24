@@ -46,7 +46,7 @@ It's very tedious to copy and paste the function declarations in a C++ header fi
 
 [Lazy C++](http://www.lazycplusplus.com/) was written specifically to address this problem. It has been long established and probably copes with complicated syntaxes better than this script. However, the fact that I need to create a separate `lzz` file just doesn't make me feel good. There are also reports of it not compiling on Mac OS X.
 
-[Eclipse CDT](http://www.eclipse.org/cdt/) has a function called "Implement Methods" under the "Refactor" menu which basically does all this robustly. Actually, the best solution for this problem is to switch to Eclipse. This script is just a poor man's solution for those who don't want to use Eclipse for whatever reasons.
+[Eclipse CDT](http://www.eclipse.org/cdt/) has a function called "Implement Methods" under the "Refactor" menu which basically does all this robustly. For that purpose, Eclipse's refactor wins. There are some cases for us command line freaks who like to combine small tools with the holy grails of `find`/`grep`/`sed`/`awk` so here is a command line tool.
 
 ## Limitations/Known bugs
 
