@@ -42,6 +42,12 @@ It's very tedious to copy and paste the function declarations in a C++ header fi
 - Ruby
 - [SWIG](http://www.swig.org/) -- Most Linux distros include this; Windows users can use Cygwin version or the downloadable executable from the site.
 
+## Why should I use this instead of <XXX>?
+
+[Lazy C++](http://www.lazycplusplus.com/) was written specifically to address this problem. It has been long established and probably copes with complicated syntaxes better than this script. However, the fact that I need to create a separate `lzz` file just doesn't make me feel good. There are also reports of it not compiling on Mac OS X.
+
+[Eclipse CDT](http://www.eclipse.org/cdt/) has a function called "Implement Methods" under the "Refactor" menu which basically does all this robustly. Actually, the best solution for this problem is to switch to Eclipse. This script is just a poor man's solution for those who don't want to use Eclipse for whatever reasons.
+
 ## Limitations/Known bugs
 
     $ cat Stress.hpp
