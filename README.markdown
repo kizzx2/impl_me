@@ -4,7 +4,7 @@ Automatically generate function definitions for C++ classes for lazy people.
 
 ## Purpose
 
-It's very tedious to copy and paste the function declarations in a C++ header file into the implementation file, add the class name along with the curly braces
+It's very tedious to copy and paste the function declarations in a C++ header file into the implementation file, add the class name along with the curly braces. This is a simple script to ease the pain for those who're stuck in low-level land.
 
 ## Usage
 
