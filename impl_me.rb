@@ -1,4 +1,4 @@
-#!/bin/usr/ruby -w
+#!/usr/bin/env -S ruby -w
 
 require 'fileutils'
 require 'tempfile'
